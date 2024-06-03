@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+<body>
+    <h1><i>Multi steps form widget</i> </h1>
+    <div class="borderform">
+        <br />
+        <div class="profile">
+            <p>Profile</p>
+        </div>
+
+    <form id ="form" action="#" method="post">
+        <div>
+          <input type="text" id="firstname" name="firstname" placeholder="First Name">
+        </div>
+        <div>
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+        </div>
+        <div>
+          <input type="tel" id="phone" name="phone" placeholder="Phone">
+        </div>
+        <label class="gender">Gender:</label>
+        <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="Female"
+            required
+        />
+        <label for="female">Female</label>
+        <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="Male"
+            required
+        />
+        <label for="male">Male</label><br />
+          <textarea id="address" name="Address" placeholder="Address" required></textarea>
+        <div>
+          <button type="submit">Next</button>
+        </div>
+      </form>
+      </div>
+      
+</body>
+</html>

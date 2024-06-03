@@ -1,0 +1,68 @@
+body{
+    background-color: #3498db;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: arial;
+}
+.borderform{
+    background-color: white;
+    margin: 20px 100px 20px 35%;
+    width:  30%;
+}
+.profile{
+    width: 70px;
+    height: 40px;
+    margin: 10px  10px 10px 30px;
+    background-color: #3498db;
+    text-align: center;
+}
+.profile p{
+    padding-top: 10px;
+    color: white;
+}
+#firstname{
+    border: 1px  solid #eaeaea;
+    width:80%;
+    height: 30px;
+    margin: 10px auto 10px 30px;
+}
+#lastname{
+    border: 1px  solid #eaeaea;
+    width:80%;
+        height: 30px;
+        margin: 10px auto 10px 30px;
+}
+#phone{
+    border: 1px  solid #eaeaea;
+    height: 30px;
+    width:80%;
+    margin: 10px auto 10px 30px;
+}
+.gender{
+    color:   #9c9c9c;
+    height: 20px;
+    width:80%;
+    margin: 10px auto 10px 30px;
+}
+label[for="female"]{
+    color: #9c9c9c;
+}
+label[for="male"]{
+    color: #9c9c9c;
+}
+#address{
+    border: 1px  solid #eaeaea;
+    height: 100px;
+    width: 80%;
+    margin: 10px auto 10px 30px;  
+}
+button{
+    margin: 10px auto 20px 30px;
+    width: 60px;
+    height: 40px;
+    color:  white;
+    background-color: #3498db;
+}
